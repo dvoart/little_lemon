@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  background-color: #edefee;
+  font-family: "Markazi Text", serif;
+  margin: 3rem 5% 3rem 5%;
+  max-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgray;
+}
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: rgb(143, 120, 91);
+  border-radius: 15px;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #edefee;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(28, 51, 28);
+  transition: 0.08s ease-in;
+  font-size: 1.1rem;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.special {
+  border-radius: 15px;
+  color: #edefee;
+  font-family: "Quattrocento", serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pasta-salad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 1.5rem;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+
+.copyright {
+  text-align: end;
+}
+
+div img {
+  width: 2rem;
+}

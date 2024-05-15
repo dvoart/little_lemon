@@ -1,0 +1,161 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 0;
+}
+
+body {
+  background-color: #edefee;
+  font-family: "Markazi Text", serif;
+  margin: 3rem 5% 3rem 5%;
+  max-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgray;
+}
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: rgb(24, 32, 2);
+  border-radius: 15px;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 1rem;
+  color: #edefee;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(59, 75, 59);
+  transition: 0.08s ease-in;
+  font-size: 1.3rem;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.special {
+  border-radius: 15px;
+  color: #edefee;
+  font-family: "Quattrocento", serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pasta-salad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 1.5rem;
+}
+
+section {
+  display: flex;
+}
+
+.menu-card {
+  background: linear-gradient( rgba(236, 232, 0, 0), 30%, rgba(153, 147, 58, 0.74) ); 
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.table-card {
+  background: linear-gradient( rgba(236, 232, 0, 0), 30%, rgba(153, 147, 58, 0.74) ); ;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+  height: 25rem;
+}
+
+.hours-card {
+  background: linear-gradient( rgba(236, 232, 0, 0), 30%, rgba(153, 147, 58, 0.74) ); 
+  border-radius: 15px;
+  margin: 10px; 
+  text-align: center;
+}
+
+.cards img {
+  width: 90%;
+  height: 200px;
+}
+
+article {
+  flex: 1;
+}
+
+hr {
+  margin-top: 2rem;
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:rgb(34, 37, 31);
+  height: 2px;
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+
+.copyright {
+  text-align: end;
+  margin-top: 0.5rem;
+}
+
+div img {
+  width: 1.5rem;
+  margin-top: 0.5rem;
+}
